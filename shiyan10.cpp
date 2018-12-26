@@ -184,7 +184,9 @@ void b6()
 		printf("%.2lf\n",info[i].exp_bun/info[i].mile*100);
 	}
 }
-
+void b7()
+{
+}
 
 void main()
 {
@@ -218,6 +220,7 @@ void main()
 			case 9: b4(); break;
 			case 10: b5(); break;
 			case 11: b6(); break;
+			case 12: b7(); break;
 		}
 	}
 	while(a!=0);
