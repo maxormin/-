@@ -187,7 +187,9 @@ void b6()
 void b7()
 {
 }
-
+void b8()
+{
+}
 void main()
 {
 	int a;
@@ -221,6 +223,7 @@ void main()
 			case 10: b5(); break;
 			case 11: b6(); break;
 			case 12: b7(); break;
+			case 13: b8(); break;
 		}
 	}
 	while(a!=0);
