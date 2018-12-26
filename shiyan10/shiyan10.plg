@@ -1,0 +1,37 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: shiyan10 - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\随风\AppData\Local\Temp\RSP7801.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/shiyan10.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"F:\test\shiyan10\shiyan10.cpp"
+]
+Creating command line "cl.exe @"C:\Users\随风\AppData\Local\Temp\RSP7801.tmp"" 
+Creating temporary file "C:\Users\随风\AppData\Local\Temp\RSP7812.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/shiyan10.pdb" /debug /machine:I386 /out:"Debug/shiyan10.exe" /pdbtype:sept 
+.\Debug\shiyan10.obj
+]
+Creating command line "link.exe @"C:\Users\随风\AppData\Local\Temp\RSP7812.tmp""
+<h3>Output Window</h3>
+Compiling...
+shiyan10.cpp
+F:\test\shiyan10\shiyan10.cpp(101) : warning C4101: 'info3' : unreferenced local variable
+F:\test\shiyan10\shiyan10.cpp(102) : warning C4101: 'info4' : unreferenced local variable
+F:\test\shiyan10\shiyan10.cpp(103) : warning C4101: 'info5' : unreferenced local variable
+F:\test\shiyan10\shiyan10.cpp(99) : warning C4101: 'info1' : unreferenced local variable
+F:\test\shiyan10\shiyan10.cpp(100) : warning C4101: 'info2' : unreferenced local variable
+Linking...
+
+
+
+<h3>Results</h3>
+shiyan10.exe - 0 error(s), 5 warning(s)
+</pre>
+</body>
+</html>
